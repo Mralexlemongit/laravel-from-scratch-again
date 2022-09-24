@@ -9,39 +9,13 @@
     <link rel="stylesheet" href="/app.css">
 </head>
 <body>
-    <article>
-        <h1><a href="/posts/mi-primer-post">Mi primer Post Sabrosito</a></h1>
 
-        <p>
-            <strong>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dignissimos dolor doloribus
-                eaque, fuga laudantium nam nesciunt nisi nostrum nulla obcaecati placeat quae quas repudiandae sapiente
-                sed temporibus voluptas, voluptates?
-            </strong>
-            <strong>Lorem ipsum dolor sit amet,</strong> consectetur adipisicing elit. Aspernatur dignissimos dolor doloribus eaque, fuga laudantium nam nesciunt nisi nostrum nulla obcaecati placeat quae quas repudiandae sapiente sed temporibus voluptas, voluptates?
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dignissimos dolor doloribus eaque, fuga laudantium nam nesciunt nisi nostrum nulla obcaecati placeat quae quas repudiandae sapiente sed temporibus voluptas, voluptates?
-        </p>
-    </article>
+    <?php foreach ($posts as $post) : ?>
+        <article>
+            <?= $post; ?>
+        </article>
+    <?php endforeach; ?>
 
-    <article>
-        <h1><a href="/posts/mi-segundo-post">Mi Segundo Post Sabrosito</a></h1>
-
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dignissimos dolor doloribus eaque, fuga laudantium nam nesciunt nisi nostrum nulla obcaecati placeat quae quas repudiandae sapiente sed temporibus voluptas, voluptates?
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dignissimos dolor doloribus eaque, fuga laudantium nam nesciunt nisi nostrum nulla obcaecati placeat quae quas repudiandae sapiente sed temporibus voluptas, voluptates?
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dignissimos dolor doloribus eaque, fuga laudantium nam nesciunt nisi nostrum nulla obcaecati placeat quae quas repudiandae sapiente sed temporibus voluptas, voluptates?
-        </p>
-    </article>
-
-    <article>
-        <h1><a href="/posts/mi-tercer-post">Mi Tercer Post Sabrosito</a></h1>
-
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dignissimos dolor doloribus eaque, fuga laudantium nam nesciunt nisi nostrum nulla obcaecati placeat quae quas repudiandae sapiente sed temporibus voluptas, voluptates?
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dignissimos dolor doloribus eaque, fuga laudantium nam nesciunt nisi nostrum nulla obcaecati placeat quae quas repudiandae sapiente sed temporibus voluptas, voluptates?
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dignissimos dolor doloribus eaque, fuga laudantium nam nesciunt nisi nostrum nulla obcaecati placeat quae quas repudiandae sapiente sed temporibus voluptas, voluptates?
-        </p>
-    </article>
 
 </body>
 </html>
