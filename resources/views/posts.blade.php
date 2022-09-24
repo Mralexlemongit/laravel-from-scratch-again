@@ -10,7 +10,7 @@
 </head>
 <body>
     <article>
-        <h1><a href="/post">Mi primer Post Sabrosito</a></h1>
+        <h1><a href="/posts/mi-primer-post">Mi primer Post Sabrosito</a></h1>
 
         <p>
             <strong>
@@ -24,7 +24,7 @@
     </article>
 
     <article>
-        <h1><a href="/post">Mi Segundo Post Sabrosito</a></h1>
+        <h1><a href="/posts/mi-segundo-post">Mi Segundo Post Sabrosito</a></h1>
 
         <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dignissimos dolor doloribus eaque, fuga laudantium nam nesciunt nisi nostrum nulla obcaecati placeat quae quas repudiandae sapiente sed temporibus voluptas, voluptates?
@@ -34,7 +34,7 @@
     </article>
 
     <article>
-        <h1><a href="/post">Mi Tercer Post Sabrosito</a></h1>
+        <h1><a href="/posts/mi-tercer-post">Mi Tercer Post Sabrosito</a></h1>
 
         <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dignissimos dolor doloribus eaque, fuga laudantium nam nesciunt nisi nostrum nulla obcaecati placeat quae quas repudiandae sapiente sed temporibus voluptas, voluptates?

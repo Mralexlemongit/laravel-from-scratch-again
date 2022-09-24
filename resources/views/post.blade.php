@@ -10,17 +10,7 @@
 </head>
 <body>
 <article>
-    <h1><a href="/post">Mi primer Post Sabrosito</a></h1>
-
-    <p>
-        <strong>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dignissimos dolor doloribus
-            eaque, fuga laudantium nam nesciunt nisi nostrum nulla obcaecati placeat quae quas repudiandae sapiente
-            sed temporibus voluptas, voluptates?
-        </strong>
-        <strong>Lorem ipsum dolor sit amet,</strong> consectetur adipisicing elit. Aspernatur dignissimos dolor doloribus eaque, fuga laudantium nam nesciunt nisi nostrum nulla obcaecati placeat quae quas repudiandae sapiente sed temporibus voluptas, voluptates?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dignissimos dolor doloribus eaque, fuga laudantium nam nesciunt nisi nostrum nulla obcaecati placeat quae quas repudiandae sapiente sed temporibus voluptas, voluptates?
-    </p>
+    <?= $post; ?>
 </article>
 
 <a href="/"><p>Comeback</p></a>
